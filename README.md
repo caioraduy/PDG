@@ -36,7 +36,7 @@ Exemplo para gerar um log de eventos com drift graduais:
 
 Exemplo para gerar um log de eventos com drifts abruptos:
 
-    python PDGCommandLine.py -driftType abrupto -logSize 1000 -outputPath "LOGGENcodigo/teste.xes" -listDriftPoints 300 500 -listPathsPNMLs "C:\\Users\\raduy\\Downloads\\ModelosIncrementais\\base.pnml" "C:\\Users\\raduy\\Downloads\\ModelosIncrementais\\I.pnml" 
+    python PDGCommandLine.py -driftType abrupto -logSize 1000 -outputPath "teste.xes" -listDriftPoints 300 500 -listPathsPNMLs "C:\\Users\\raduy\\Downloads\\ModelosIncrementais\\base.pnml" "C:\\Users\\raduy\\Downloads\\ModelosIncrementais\\I.pnml" "C:\\Users\\raduy\\Downloads\\ModelosIncrementais\\IO.pnml"
 
 Como rodar o Merge Logs via linha de comando??
 

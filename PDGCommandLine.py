@@ -11,7 +11,8 @@ po decaimento': 'exponencial', 'inicio': 800, 'fim': 1200, 'divisoes drift': Non
 """
 import argparse
 import datetime
-from LOGGEN import Parametro, Contexto
+from Parametro import Parametro
+from Contexto import Contexto
 
 
 def validar_list_dict(list_dict_str):

@@ -1,0 +1,22 @@
+class Parametro:
+    def __init__(self, list_dict=None,
+                 list_drift_points=None,
+                 output_final_path=None,
+                 list_paths_PNMLs=None,
+                 initial_timestamp=None,
+                 noise=None,
+                 log_size=None,
+                 gradual_generation_method=None,
+                 modelos_xes=None,
+                 replicate=False):
+        self.list_dict = list_dict
+        self.list_drift_points = list_drift_points
+        self.output_final_path = output_final_path
+        self.list_paths_PNMLs = list_paths_PNMLs
+        self.initial_timestamp = initial_timestamp
+        self.noise = noise
+        self.log_size = log_size
+        self.gradual_generation_method = gradual_generation_method
+        self.modelos_xes = modelos_xes
+        self.replicate = replicate
+        self.drift_type = None
